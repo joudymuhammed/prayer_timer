@@ -21,7 +21,7 @@ class PrayerService{
         }
         catch(e)
     {
-      print("Can't fetch data ${e}");
+      print("Can't fetch data!!! ${e}");
       throw Exception("error fetching prayer");
     }
   }
